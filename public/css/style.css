@@ -1,0 +1,1437 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: #FFFFFF;
+    background-image: url(../img/design_img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 -215px;
+    background-size: contain;
+    font-family: 'Roboto Slab', serif;
+}
+input:focus, button:focus {
+    outline: none;
+}
+
+.carbidding-container {
+    margin-top: 110px;
+}
+
+.gender {
+    margin-top: 10px;
+}
+
+#headerlogo:hover {
+    transform: translateX(-20px);
+    transition: 1s;
+}
+
+.avatarusers {
+    width: 55px;
+    border-radius: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #2e649e !important;
+    color: #FFFFFF;
+}
+
+.logo {
+    padding: 0 !important;
+    background: white !important;
+    height: 110px;
+}
+
+.logo_img {
+    width: 65%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.searchusers {
+    display: block;
+    margin: 0 !important;
+}
+
+.uspageform {
+    border-radius: 0 !important;
+}
+
+.selects {
+    -webkit-appearance: none;
+    background-image: url(../img/design_img/rowselects.PNG);
+    background-repeat: no-repeat;
+    background-position: right 0;
+    background-size: 20px 32px;
+}
+
+#bodyadd {
+    border-radius: 50px;
+    display: block;
+    margin-top: 2px;
+    font-size: 20px;
+    padding: 7px 15px;
+}
+
+#bodyicon {
+    margin-top: 30px;
+}
+
+.iconbody {
+    width: 90px;
+    background-color: #2e649e;
+    padding: 5px 20px;
+}
+
+.onepng {
+    width: 50px;
+}
+
+.onetime {
+    margin-top: 50px;
+}
+
+#modeladd {
+    border-radius: 50px;
+    display: block;
+    margin-top: 2px;
+    font-size: 20px;
+    padding: 7px 15px;
+}
+
+#modelicon {
+    margin-top: 30px;
+}
+
+.iconmodel {
+    width: 95px;
+}
+
+#stateadd {
+    border-radius: 50px;
+    display: block;
+    margin-top: 2px;
+    font-size: 20px;
+    padding: 7px 15px;
+}
+
+#stateicon {
+    margin-top: 30px;
+}
+
+#parkingadd {
+    border-radius: 50px;
+    display: block;
+    margin-top: 2px;
+    font-size: 20px;
+    padding: 7px 15px;
+}
+
+#parkingicon {
+    margin-top: 30px;
+}
+
+#auctioncatadd {
+    border-radius: 50px;
+    display: block;
+    margin-top: 2px;
+    font-size: 20px;
+    padding: 7px 15px;
+}
+
+#auctioncaticon {
+    margin-top: 30px;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.searching {
+    margin-top: 30px;
+}
+
+.searchbut {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.founds {
+    padding-top: 25px;
+}
+
+.searchboxmodel {
+    margin-top: -35px !important;
+}
+
+.cars-body {
+    padding: 20px 25px;
+}
+
+.mainpicadmin {
+    width: 100%;
+}
+
+.car-blok {
+    margin-top: 60px;
+}
+
+.commentsadmin {
+    background: #ca9a686b;
+    padding: 20px 20px 10px 20px;
+}
+
+.descript {
+    margin-top: 30px;
+}
+
+.carimages {
+    width: 100px;
+}
+
+.headerback {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#headerlogo {
+    width: 119px;
+    transition: 1s;
+}
+
+#carnavbar {
+    border-bottom: 2px solid #A4A4A4;
+    background-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-link {
+    display: block;
+    padding: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 0;
+}
+.navbar-toggler {
+    font-size: 0.95rem;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:black;
+}
+ .menunavbar .nav-item {
+     list-style: none;
+     padding: 7px 17px;
+ }
+
+.dropdown-menu .nav-item:hover {
+    background-color: #2099fe;
+    transition: 0.5s;
+}
+
+.dropdown-menu .nav-item:hover .nav-link {
+    color: #f1f1f1;
+    transition: 0.5s;
+}
+
+.dropdown-menu .nav-item:hover .logoutbut a {
+    color: #f1f1f1;
+    transition: 0.5s;
+}
+
+
+.dropdown-menu .nav-item .router-link-exact-active{
+    color: #2099fe;
+}
+
+.dropdown-menu li a {
+    color: black;
+    width: 230px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.searchinput {
+    background-color: transparent;
+    border: none;
+    height: 27px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.searchdiv {
+    border-radius: 6px;
+    background-color: #ffffff;
+    height: 27px;
+    color: black;
+    font-weight: 600;
+}
+
+.searchinput:focus {
+    background-color: #4f4f500f;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.searchdiv:focus {
+    background-color: #4f4f500f;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.searchbox_div .searchbox {
+    background: #0F91FF;
+    margin-top: 0;
+    padding: 0 15px;
+    height: 81px;
+    width: 100%;
+    max-width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 16%;
+}
+
+.searchicon {
+    background-color: transparent;
+    height: 27px;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.butsearch {
+    color: white;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.butsearch:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.body-cars img {
+    width: 50px;
+}
+
+.quantity_cars {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    font-size: 14px;
+    color: #0f92ff;
+}
+
+.quantity_cars p {
+    color: #0f92ff;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.body_icons {
+    color: #0f92ff;
+    font-size: 35px;
+    justify-content: center;
+    margin: 10px 0;
+    transition: 0.4s;
+}
+
+.body-cars {
+    border: 1px solid #0f92ff;
+    margin: 0 5px;
+    text-align: center;
+    border-bottom: none;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 11.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.car_types_div {
+    position: relative;
+    width: 100%;
+}
+
+.body-cars i {
+    color: #0f92ff;
+    font-size: 40px;
+    transition: 0.4s;
+}
+
+.body-cars a {
+    text-decoration: none;
+}
+
+.body-cars .carTypesText {
+    color: #0f92ff;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.car_types_div .carTypesLScroll {
+    display: none;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 20px;
+    color: blue;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    left: 0;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.car_types_div .carTypesRScroll {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 20px;
+    color: blue;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    right: 0;
+}
+
+.body-cars:hover a i, .body-cars:hover a .carTypesText {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.body-cars.carTypeActive a i, .body-cars.carTypeActive a .carTypesText {
+    color: #fff !important;
+}
+
+.body-cars:hover .quantity_cars p {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.body-cars:hover {
+    background: #0f92ff;
+    transition: 0.5s;
+}
+
+.body-cars.carTypeActive {
+    background-color: #0f92ff;
+    background-image: url(../img/design_img/jjj.png);
+}
+
+.body-cars:hover .carTypesText {
+    transform: translateX(-5px);
+    transition: 0.4s;
+    margin-bottom: 0;
+}
+.body-cars.carTypeActive .quantity_cars p {
+    color: #fff;
+}
+
+.body-cars:hover i {
+    transform: scale(1.1);
+    color: white;
+    transition: 0.4s;
+}
+
+.body-cars:hover p {
+    color: white;
+    transition: 0.4s;
+}
+
+.body-cars:hover {
+    background-color: #0f92ff;
+    transition: 0.4s;
+}
+
+.body-name {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    transition: 0.4s;
+}
+
+.text-name {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.car-filters {
+    background-image: url("../img/design_img/jjj.png");
+    background-color: #0f92ff;
+    height: 140px;
+}
+
+.select-options-filter {
+    padding-top: 25px;
+    flex-wrap: nowrap !important;
+    justify-content: space-around;
+}
+
+.options {
+    border-radius: 6px;
+    border: 1px solid white;
+}
+
+.car-filters label {
+    color: white;
+}
+
+.filter-date-btn {
+    margin-top: 33px;
+}
+
+.car-filters p {
+    color: white;
+    display: block;
+}
+
+.selectbox {
+    margin-top: 8px;
+}
+
+.now-ui-icons.ui-1_zoom-bold:before {
+    content: "\ea64";
+}
+
+.filter-search-icon {
+    width: 23px;
+}
+
+.cars-article img {
+    width: 100%;
+    height: 280px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.cars-root {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.article-price {
+    width: 100%;
+    max-width: 30%;
+    height: 35px;
+    background-color: #2099FE;
+    position: absolute;
+    top: 7%;
+    left: 37%;
+    box-shadow: 0 0 21px -2px black;
+    transition: 0.7s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    color: #fff;
+    padding: 5px 7px;
+}
+.article-price-tag {
+    text-align: center;
+    color: #fff;
+}
+
+.inform_txt_responsive {
+    display: none;
+}
+
+.article-price:hover {
+    transform: translateY(-15px);
+    transition: 0.3s ease-out;
+}
+
+.footer-background {
+    background-color: #DAE2F0;
+    border-top: 4px solid #0f92ff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.footer-logo {
+    text-align: center;
+    font-weight: 600;
+    background-position: center;
+    background-image: url(../img/design_img/carbiddinglogo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.footer-opacity {
+    background-color: #dae2f0e0;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.lastcars {
+    width: 100%;
+}
+
+.lastcars img {
+    width: 100%;
+}
+
+#lastcars {
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.slider-col {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+#carouselExampleControls {
+    box-shadow: 0 0 21px -2px black;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 60px !important;
+    height: 45px !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 9.2% !important;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #0f92ff59;
+}
+
+.car-informacion {
+    position: absolute;
+    top: 0;
+    right: 17%;
+    background-color: #0f92ff59;
+    width: 260px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 16px 1px rgb(0, 0, 0);
+}
+
+.car-informacion p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.text-hover {
+    position: relative;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.drop-text {
+    position: absolute;
+    left: 0;
+    top: 85%;
+    width: 100%;
+    background-image: linear-gradient(#0f92ff61, #0f92ff1f);
+    padding: 10px 0;
+    transition: 0.7s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.drop-text:hover {
+    top: 38%;
+    transition: 0.7s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.cars-article-texts {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.input-row {
+    flex-wrap: nowrap;
+}
+
+.input-date::-webkit-inner-spin-button {
+    display: none;
+}
+
+.searchcarsauction {
+    color: #0f92ff;
+    display: block;
+    margin-right: 17px;
+}
+
+.cars-article img {
+    transition: 0.7s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.cars-article:hover img {
+    transform: scale(1.1);
+    transition: 0.7s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.bg_img {
+    background-image: url(../img/about_img/about_txt.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 920px;
+    margin-top: 80px;
+}
+
+.pics img {
+    -webkit-filter: grayscale(1);
+    height: 75px;
+}
+
+.pics img:hover {
+    -webkit-filter: grayscale(0);
+}
+
+.about_div {
+    color: #fff;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.about_paragraph {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about_txt {
+    text-align: right;
+}
+
+.hello {
+    text-align: center;
+    font-size: 20px;
+}
+
+.show_more_btn {
+    background: #fff;
+    border: none;
+    color: #0C74CA;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 30px;
+}
+
+.add_txt_show {
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.slide-fade-enter-active {
+    transition: all .3s ease;
+}
+
+.slide-fade-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter, .slide-fade-leave-to {
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+.show_more_btn:focus {
+    outline: none;
+}
+
+.partners {
+    background: #fff;
+    padding: 10px 0 10px;
+    margin: 40px 0 40px;
+}
+
+.partners_title {
+    color: #0C74CA;
+    font-size: 35px;
+    text-align: center;
+    padding: 0 0 50px;
+}
+
+.carousel-arrow-left, .carousel-arrow-right {
+    position: absolute;
+    top: 30%;
+}
+
+.carousel-arrow-left {
+    left: 0;
+}
+
+.carousel-arrow-right {
+    right: 0;
+}
+
+.carousel-arrow-left .fa-chevron-left, .carousel-arrow-right .fa-chevron-right {
+    color: #0C74CA;
+    font-size: 47px;
+}
+
+.pics > img {
+    padding-right: 35px;
+}
+
+.contacts_div {
+    color: #fff;
+    font-size: 14px;
+    background-color: #0C74CA;
+    padding: 60px 15px 60px 15px;
+}
+.contacts_div i {
+    padding-right: 7px;
+}
+
+.contact_title, .w_hours_title, .address_title {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.mail_info {
+    display: block;
+}
+
+.additional_services_btn button {
+    background: #f1f1f1;
+    color: #0C74CA;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 10px;
+}
+
+.additional_services_btn {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.contacts_div_txt .add_services_title {
+    font-size: 40px;
+    color: #0C74CA;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.map_img {
+    background-image: url(../img/about_img/map.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+
+.about-row{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.margin {
+    margin-top: 80px;
+    background: #ffffffad;
+}
+
+.cars_section {
+    margin-top: 30px;
+}
+
+.cars_section img {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#main_pic {
+    width: 540px;
+    height: 400px;
+    cursor: pointer;
+}
+
+.small_pics_row {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.smallImages {
+    width: 110px;
+    height: 100px;
+    cursor: zoom-in;
+}
+
+/* car info styles  */
+.car_info {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.inp_row {
+    margin-bottom: 15px;
+}
+
+.lot_number {
+    font-size: 12px;
+    background: #0C74CA;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+.current_prize {
+    color: #0C74CA;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.car_type {
+    font-size: 20px;
+    text-align: left;
+}
+
+.auction_desc_uls {
+    margin-top: 30px;
+}
+
+.auction_desc_uls > div ul {
+    font-size: 16px;
+    text-align: left;
+    list-style: none;
+}
+
+.ul_one ul li span {
+    color: #0C74CA;
+    font-weight: bold;
+}
+
+.ending_counter_div {
+    margin-left: 41px;
+    text-align: left;
+}
+
+.ending_counter_div .hour_span {
+    color: #d82f2f;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.txt_span {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mobiles_data_row {
+    margin-top: 30px;
+    background: #0C74CA;
+    padding: 30px 0;
+}
+
+.car_data_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 40px;
+    width: 285px;
+}
+
+.m_data_list ul {
+    margin-top: 30px;
+    list-style: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.page-link {
+    background: #eaeaea;
+}
+
+.page-item {
+    cursor: pointer;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/*register page design*/
+
+.register_container {
+    margin-top: 79px;
+}
+
+.attention_main_txt {
+    position: relative;
+    margin-top: 30px;
+    background: #0f92ff;
+    padding: 15px 50px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.attention_main_txt:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 103px;
+    background: #fff;
+    top: 22px;
+    left: 30px;
+}
+
+.register_content {
+    margin-top: 30px;
+    display: none;
+}
+
+.active_tab {
+    display: block;
+}
+
+.register_request_row {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.reg_ul {
+    list-style: none;
+    display: flex;
+}
+
+.reg_li {
+    margin-right: 10px;
+}
+
+.reg_btn {
+    color: #0f92ff;
+    border-color: #0f92ff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    font-size: 14px;
+}
+.reg_btn.active {
+    color: #fff;
+    background:  #0f92ff;
+}
+
+.register_content .register_title {
+    font-size: 25px;
+    color: #0f92ff;
+    text-align: center;
+    text-shadow: 1px 1px #040404;
+}
+
+.register_form {
+    margin-top: 30px;
+}
+
+.register_inputs {
+    display: block;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.register_container input[type='file'] {
+    margin-top: 10px;
+}
+
+.register_container input[type='radio'] {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.register_container label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#gender {
+    display: block;
+}
+
+.policy {
+    margin: 30px 0;
+    font-size: 16px;
+}
+
+.policy_txt_color {
+    color: #0f92ff;
+}
+
+.register_container input[type='checkbox'] {
+    display: inline-block;
+}
+
+.send {
+    text-align: center;
+}
+
+#reg-but {
+    background: #0f92ff;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    padding: 6px;
+    cursor: not-allowed;
+}
+
+.register_inputs {
+    border-radius: 5px;
+    display: block;
+    padding: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.register_inputs:focus {
+    outline: none;
+}
+
+.logoutbut {
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+}
+
+.logoutbut a:not([href]):not([tabindex]):hover {
+    color: white;
+}
+
+.logoutbut a:not([href]):not([tabindex]) {
+    color: black;
+    width: 230px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.notfoundtxt {
+    display: flex;
+    align-items: flex-end;
+}
+
+.notfoundimg img {
+    width: 100%;
+}
+
+.login_page_container {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.lg_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login_div {
+    background: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 16px;
+}
+
+.login_title {
+    font-size: 25px;
+    color: #0f92ff;
+    text-shadow: 1px 1px #040404;
+}
+
+.register_div {
+    background: #0f92ff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 40px 60px;
+}
+
+.registration {
+    color: #fff;
+    font-size: 25px;
+}
+
+.register_div .registr_txts {
+    color: #fff;
+    font-size: 16px;
+}
+
+.login_btn {
+    background: #0f92ff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.75rem 4.75rem;
+    cursor: pointer;
+}
+
+.registr_btn {
+    background: #fff;
+    color: #0f92ff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.75rem 2.75rem;
+    cursor: pointer;
+}
+
+.login_inputs {
+    padding: 7px 5px;
+    border: 1px solid #0f92ff;
+    border-radius: 3px;
+    display: block;
+    margin-bottom: 20px;
+    width: 230px;
+}
+
+.fpssw_label {
+    margin-top: 20px;
+    display: block;
+}
+
+.register_container form {
+    margin-top: 30px;
+}
+
+.rem_me {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.profile_bg_white {
+    background: #ffffffad;
+}
+
+.profile_container {
+    margin-top: 83px;
+}
+
+.profile_menu {
+    background: #1969abb0;
+    padding: 20px 0;
+    margin: 20px 15px 0 0;
+}
+
+.profile_data {
+    margin: 20px 0;
+    padding-left: 0;
+    font-size: 12px;
+}
+
+.avatar_section {
+    margin-left: 70px;
+    margin-bottom: 15px;
+}
+
+.avatar_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.user_name_tag {
+    font-size: 25px;
+    color: #fff;
+}
+
+.user_name_ul {
+    list-style: none;
+    font-size: 16px;
+}
+
+.myprofile_btn, .profile_btn_followers {
+    max-width: 97px;
+    font-size: 12px;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.myprofile_btn {
+    background: #fff;
+    color: #0f92ff;
+    border: 1px solid #fff;
+}
+
+.profile_btn_followers {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.profile_menu_nav {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.profile_menu_ul {
+    padding-inline-start: 0;
+    list-style: none;
+    color: #fff;
+}
+
+.profile_menu_ul .active {
+    color: #0f92ff;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.profile_menu_ul .profile_menu_li {
+    transition: 0.5s;
+    padding: 15px 85px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.tablinks .profile_menu_li:hover {
+    background: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    color: #0f92ff;
+}
+
+.profile_container .active {
+    background: #fff;
+}
+
+.fa-user, .fa-ruble-sign {
+    padding-right: 15px;
+}
+
+.fa-unlock {
+    padding-right: 10px;
+}
+
+.personal_data_title {
+    font-size: 22px;
+    color: #0f92ff;
+}
+
+.showEdit {
+    display: none;
+}
+
+/*tabs design*/
+.table-hover tbody tr:hover {
+    background: rgba(0, 0, 0, 0.13);
+    color: #000;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tablinks {
+    border: none;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-align: left;
+    color: #fff;
+}
+
+.tablinks:focus {
+    outline: none;
+}
+
+.activetabis {
+    display: block;
+    margin-top: 20px;
+}
+.tabcontent {
+    margin-top: 20px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.fa-unlock {
+    padding-right: 10px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+/*ripple effect on mobile design*/
+.btn-ripple {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: all ease-in-out .5s;
+}
+
+.btn-ripple::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    height: 100%;
+    width: 50%;
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all ease-in-out 1s;
+    transform: scale(5, 5);
+}
+
+.btn-ripple:active::after {
+    padding: 0;
+    margin: 0;
+    opacity: .2;
+    transition: 0s;
+    transform: scale(0, 0);
+}
